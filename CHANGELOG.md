@@ -1,0 +1,46 @@
+## 0.1.0 (十月 12, 2019)
+  - added bump file and .gitignore
+  - Merge pull request #8 from OpenDroneMap/153b1
+  - Publish script
+  - Don't wait for queue if there are errors
+  - Catch exceptions in progress callback
+  - Merge pull request #7 from OpenDroneMap/153
+  - Report upload progress from the main thread
+  - Dumped version
+  - Float cast fix for Python 2 compatibility
+  - Merge pull request #6 from OpenDroneMap/152
+  - int cast fix for Python 2 compatibility
+  - Updated tests
+  - Merge pull request #4 from OpenDroneMap/151
+  - API changes to 1.5.1
+  - Merge pull request #3 from OpenDroneMap/150
+  - Fix unit test
+  - Fixed setup
+  - wait_for_completion retry logic
+  - Bool serialize fix
+  - Outputs field support
+  - Version in setup.py
+  - simplejson for python2 compatibility
+  - Python2 compatibility
+  - Doc fix
+  - Merge pull request #2 from OpenDroneMap/140
+  - Missing params in doc
+  - Success return flag bug fix
+  - More stable error parsing
+  - Last error support
+  - More stable info()
+  - Merge pull request #1 from OpenDroneMap/140
+  - Parallel downloads support
+  - Chunked API support
+  - Typo
+  - Args format fix
+  - README update
+  - Setup.py dependencies update, README
+  - Config changes, moved requirements.txt
+  - dependencies, livehtml make command
+  - Finished first API, examples tweaks, more docs
+  - More API implementation, examples
+  - Doc tests, types
+  - First commit
+  - Initial commit
+
