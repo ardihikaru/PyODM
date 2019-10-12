@@ -1,3 +1,7 @@
+## 0.2.0 (十月 12, 2019)
+  - Merge branch 'feature/testing' into develop
+  - updates: - modified and tested default codes
+
 ## 0.1.0 (十月 12, 2019)
   - added bump file and .gitignore
   - Merge pull request #8 from OpenDroneMap/153b1
