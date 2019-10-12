@@ -9,7 +9,23 @@ node = Node("localhost", 3000)
 try:
     # Start a task
     print("Uploading images...")
-    task = node.create_task(['images/image_1.jpg', 'images/image_2.jpg'],
+
+    root_dir = "./../"
+    img_data = [
+        root_dir + 'examples/images/DSC01605.JPG',
+        root_dir + 'examples/images/DSC01606.JPG',
+        root_dir + 'examples/images/DSC01607.JPG',
+        root_dir + 'examples/images/DSC01608.JPG',
+        root_dir + 'examples/images/DSC01609.JPG',
+        root_dir + 'examples/images/DSC01610.JPG',
+        root_dir + 'examples/images/DSC01611.JPG',
+        root_dir + 'examples/images/DSC01612.JPG',
+        root_dir + 'examples/images/DSC01613.JPG',
+        root_dir + 'examples/images/DSC01614.JPG'
+    ]
+
+    # task = node.create_task(['images/image_1.jpg', 'images/image_2.jpg'],
+    task = node.create_task(img_data,
                             {'dsm': True, 'orthophoto-resolution': 4})
     print(task.info())
 

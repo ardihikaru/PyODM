@@ -1,0 +1,10 @@
+{
+    "sony dsc-wx220 4896 3672 perspective 0": {
+        "k2": 0.0023268264742001424, 
+        "projection_type": "perspective", 
+        "k1": 0.007337808743691374, 
+        "height": 3672, 
+        "width": 4896, 
+        "focal": 0.844630945737383
+    }
+}
